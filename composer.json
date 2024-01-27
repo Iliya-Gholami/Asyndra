@@ -1,0 +1,31 @@
+{
+    "name": "asyndra/asyndra",
+    "description": "Async library for high-performance, non-blocking code",
+    "version": "1.0",
+    "homepage": "https://github.com/Iliya-Gholami/Asyndra",
+    "type": "library",
+    "keywords": [
+        "async",
+        "await",
+        "non-blocking",
+        "http"
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asyndra\\": "src/"
+        },
+        "files": [
+            "src/Asyndra.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Iliya Gholami"
+        }
+    ],
+    "minimum-stability": "beta"
+}
